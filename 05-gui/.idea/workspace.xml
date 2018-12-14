@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9dbda6-8b97-4464-a3ec-1f0ad6892455" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../04-jpa/tp-04-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-jpa/tp-04-jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-jpa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-jpa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db-1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db.data" beforeDir="false" afterPath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db.redo" beforeDir="false" afterPath="$PROJECT_DIR$/apache-activemq-5.15.8/data/kahadb/db.redo" afterDir="false" />
@@ -135,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="38" column="130" lean-forward="true" selection-start-line="38" selection-start-column="130" selection-end-line="38" selection-end-column="130" />
+            <state relative-caret-position="310">
+              <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -286,9 +285,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="205" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="158" />
+    <option name="y" value="32" />
     <option name="width" value="1440" />
     <option name="height" value="801" />
   </component>
@@ -403,7 +402,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544796401399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544800328619" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -510,7 +509,7 @@
       <workItem from="1544555883285" duration="12967000" />
       <workItem from="1544642286309" duration="10608000" />
       <workItem from="1544729846023" duration="20328000" />
-      <workItem from="1544757166944" duration="5693000" />
+      <workItem from="1544757166944" duration="6886000" />
     </task>
     <servers />
   </component>
@@ -547,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101938000" />
+    <option name="totallyTimeSpent" value="103131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,6 +559,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="205" y="34" width="1440" height="801" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8988764" visible="true" weight="0.2732475" />
       <window_info auto_hide="true" id="Structure" order="1" sideWeight="0.15062761" side_tool="true" weight="0.26180258" />
@@ -919,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="38" column="130" lean-forward="true" selection-start-line="38" selection-start-column="130" selection-end-line="38" selection-end-column="130" />
+        <state relative-caret-position="310">
+          <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
