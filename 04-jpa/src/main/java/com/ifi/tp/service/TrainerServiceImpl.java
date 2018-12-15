@@ -77,7 +77,7 @@ public class TrainerServiceImpl implements TrainerService {
                         this.notificationService.sendFullHPRecoveredNotification(trainer, pokemon);
                     }
                     else{
-                     //   this.notificationService.sendOneHPRecoveredNotification(trainer, pokemon);
+                       this.notificationService.sendOneHPRecoveredNotification(trainer, pokemon);
                     }
                 }
             });
