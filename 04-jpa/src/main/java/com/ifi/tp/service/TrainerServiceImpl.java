@@ -63,24 +63,25 @@ public class TrainerServiceImpl implements TrainerService {
         this.pokemonService = pokemonService;
     }
 
-//    @Scheduled(fixedRate = 60000)
-//    void restoreOneHp(){
-//        var trainers = this.getAllTrainers();
-//        for(var trainer : trainers){
-//            trainer.getTeam().stream().forEach(pokemon -> {
-//                var maxHp = pokemonService.getPokemonMaxHp(pokemon.getPokemonNumber());
-//                if(pokemon.getHp() < maxHp){
-//                    pokemon.setHp(pokemon.getHp() + 1);
-//                    this.updateTrainer(trainer);
-//                    if(pokemon.getHp() == maxHp){
-//                        this.notificationService.sendFullHPRecoveredNotification(trainer, pokemon);
-//                    }
-//                    else{
-//                        this.notificationService.sendOneHPRecoveredNotification(trainer, pokemon);
-//                    }
-//                }
-//            });
-//        }
-//    }
+    @Scheduled(fixedRate = 60000)
+    void restoreOneHp(){
+        System.out.println("coucou");
+        var trainers = this.getAllTrainers();
+        for(var trainer : trainers){
+            trainer.getTeam().stream().forEach(pokemon -> {
+                var maxHp = pokemonService.getPokemonMaxHp(pokemon.getPokemonNumber())+pokemon.getLevel();
+                if(pokemon.getHp() < maxHp){
+                    pokemon.setHp(pokemon.getHp() + 1);
+                    this.updateTrainer(trainer);
+                    if(pokemon.getHp() == maxHp){
+                        this.notificationService.sendFullHPRecoveredNotification(trainer, pokemon);
+                    }
+                    else{
+                     //   this.notificationService.sendOneHPRecoveredNotification(trainer, pokemon);
+                    }
+                }
+            });
+        }
+    }
 
 }

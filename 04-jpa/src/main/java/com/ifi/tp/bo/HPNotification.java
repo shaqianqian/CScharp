@@ -24,6 +24,15 @@ public class HPNotification {
         this.pokemon = pokemon;
     }
 
+    @Override
+    public String toString() {
+        return "HPNotification{" +
+                "trainer=" + trainer +
+                ", pokemon=" + pokemon +
+                ", fullHP=" + fullHP +
+                '}';
+    }
+
     public boolean isFullHP() {
         return fullHP;
     }

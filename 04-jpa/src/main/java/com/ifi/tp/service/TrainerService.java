@@ -14,4 +14,6 @@ public interface TrainerService {
     Trainer updateTrainer(Trainer trainer);
 
     void deleteTrainer(String trainerName);
+
+
 }
