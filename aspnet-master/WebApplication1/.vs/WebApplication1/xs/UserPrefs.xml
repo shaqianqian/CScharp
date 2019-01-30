@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{7136A04A-BFE3-4FF2-8C60-AD475E3258FF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Controllers/MovieController.cs">
+    <Files>
+      <File FileName="WebApplication1/Content/bootstrap.css" Line="1" Column="1" />
+      <File FileName="WebApplication1/Models/Movie.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Movie/Delete.cshtml" Line="3" Column="5" />
+      <File FileName="WebApplication1/Views/Movie/Edit.cshtml" Line="11" Column="6" />
+      <File FileName="WebApplication1/Views/Movie/Details.cshtml" Line="22" Column="51" />
+      <File FileName="WebApplication1/Controllers/MovieController.cs" Line="58" Column="18" />
+      <File FileName="WebApplication1/Controllers/HelloworldController.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Movie/Index.cshtml" Line="33" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Index.cshtml" Line="21" Column="14" />
+      <File FileName="WebApplication1/Views/Helloworld/Welcome.cshtml" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Home/About.cshtml" Line="1" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/5.16.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2146" Column="48" />
+      <File FileName="WebApplication1/Views/Movie/Create.cshtml" Line="8" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplication1" expanded="True">
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MovieController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Movie" expanded="True" />
+              </Node>
+              <Node name="Global.asax" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

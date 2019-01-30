@@ -1,0 +1,27 @@
+﻿@model WebApplication1.Models.MvcMovie.Models.Movie
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div class="form-horizontal">
+    <h4>Movie</h4>
+    <hr />
+    <div>
+      
+    </div>
+    <table style="width:100%">
+        <tr>
+            <th>Title</th>
+            <th>Gerne</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>  @Html.DisplayFor(model => model.Title)</td>
+            <td>  @Html.DisplayFor(model => model.Genre)</td>
+            <td>  @Html.DisplayFor(model => model.Price)</td>
+        </tr>
+    </table>
+</div>
+
