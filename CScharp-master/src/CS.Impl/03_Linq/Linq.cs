@@ -27,22 +27,8 @@ namespace CS.Impl._03_Linq
 
         public IDictionary<string, int> GetFileCountByExtension(IEnumerable<string> files)
         {
-            List<string> newfiles = new List<string>();
-            newfiles =files.Select(x => x.ToLower()).ToList();
 
-            //  foreach (var f in files)
-            // {
-            //   newfiles.Add(f.ToLower());
-
-            //}
-
-            var myfiles = from f in newfiles group f by f.Split(".")[1];
-             
-            Dictionary<string, int> dic = new Dictionary<string, int>();
-
-         // foreach (var f in myfiles) {
-           //   dic.Add(f.Key, f.Count());      
-         // }
+            var myfiles = from f in files group f by f.Split(".")[1].ToLower();
             return myfiles.ToDictionary(m => m.Key, m => m.Count());
         }
 
@@ -50,8 +36,6 @@ namespace CS.Impl._03_Linq
         {
              List<Tuple<string, string, int, double>> result = new List<Tuple<string, string, int, double>>();
             return (from q in purchases join i in items on q.ItemId equals i.Id join c in clients on q.ClientId equals c.Id select new Tuple<string, string, int, double>( c.Name, i.Label, q.Quantity,i.Price)).ToList();
-            
-
 
         }
     }

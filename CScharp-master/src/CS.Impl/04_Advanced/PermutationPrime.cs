@@ -20,11 +20,13 @@ namespace CS.Impl._04_Advanced
                      res.Add(i); 
                     } }      
                 }
-                else if (this.IsPrimes(i) && i >= 100) { 
-                
-                
-                
-                
+                else if (this.IsPrimes(i) && i >= 100) {
+                    CheckPrime check = new CheckPrime();
+                    if (check.Finalcheck(check.CheckNumb(i), i))
+                    {
+                        res.Add(i);
+                    }
+
                 }
 
             }
@@ -32,11 +34,14 @@ namespace CS.Impl._04_Advanced
 
             int[] result = res.ToArray();
        
-          
+            foreach(int i in result) {
+                Console.WriteLine(i);
+            }
             return result;
 
 
         }
+
 
 
 

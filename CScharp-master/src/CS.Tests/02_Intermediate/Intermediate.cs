@@ -66,11 +66,13 @@ namespace CS.Tests._02_Intermediate
             var recursion = new Recursion();
 
             // Act
-            var isRadarPalindrome = recursion.IsPalindrome("RADAR");
+            var isRadarPalindrome1 = recursion.IsPalindrome("RADAR");
+            var isRadarPalindrome = recursion.IsPalindrome("RADDAR");
             var isWrongPalindrome = recursion.IsPalindrome("Wrong");
 
             // Assert
             Assert.IsTrue(isRadarPalindrome);
+            Assert.IsTrue(isRadarPalindrome1);
             Assert.IsFalse(isWrongPalindrome);
         }
     }

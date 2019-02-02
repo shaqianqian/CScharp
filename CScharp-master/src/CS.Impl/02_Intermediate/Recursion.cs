@@ -70,6 +70,16 @@ namespace CS.Impl._02_Intermediate
         {
             if (text.Length == 1)
                 return true;
+            else if (text.Length == 2) {
+                string a = text.Substring(0, 1),
+                       b = text.Substring(text.Length - 1, 1);
+
+                if (a == b)
+                    return true;
+                else
+                    return false;
+
+            }
 
             else {
                 string a = text.Substring(0, 1),
