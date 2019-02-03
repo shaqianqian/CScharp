@@ -23,5 +23,10 @@
             <td>  @Html.DisplayFor(model => model.Price)</td>
         </tr>
     </table>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index") |
+        @Html.ActionLink("Delete", "Delete", new { id = Model.ID })
+    </p>
 </div>
 
